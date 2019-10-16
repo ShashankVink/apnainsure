@@ -13,13 +13,15 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Login from "./Components/Login";
 import Dashboard from "./Components/Dashboard";
 import Manfcard from "./Components/Manfcard";
+import Vehicle from "./Components/VehicleDetails";
 
 
 function App() {
   return (
     <BrowserRouter>
       <Header></Header>
-      <Dashboard></Dashboard>
+      {/* <Dashboard></Dashboard> */}
+      <Vehicle></Vehicle>
       {/* <div>
         
         <Switch>

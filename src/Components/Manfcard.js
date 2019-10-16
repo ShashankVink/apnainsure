@@ -43,7 +43,10 @@ export default class Firstpage extends Component {
                             <Dropdown.Toggle variant="light" style={{ marginTop: "1rem" }} >
                                 MANUFACTURER
                             </Dropdown.Toggle>
-                            <Dropdown.Menu>
+                            <Dropdown.Menu style={{height:"20rem", maxHeight:"25rem", overflow:"scroll"}}>
+                                <Dropdown.Item href="#/action-1">Chevrolet</Dropdown.Item>
+                                <Dropdown.Item href="#/action-2">Fiat</Dropdown.Item>
+                                <Dropdown.Item href="#/action-3">Honda</Dropdown.Item>
                                 <Dropdown.Item href="#/action-1">Chevrolet</Dropdown.Item>
                                 <Dropdown.Item href="#/action-2">Fiat</Dropdown.Item>
                                 <Dropdown.Item href="#/action-3">Honda</Dropdown.Item>
@@ -59,7 +62,7 @@ export default class Firstpage extends Component {
                             <Dropdown.Toggle variant="light" style={{ marginTop: "-4rem", width: "10rem" }} >
                                 CAR VARIANT
                             </Dropdown.Toggle>
-                            <Dropdown.Menu>
+                            <Dropdown.Menu style={{height:"20rem", maxHeight:"25rem", overflow:"scroll"}}>
                                 <Dropdown.Item href="#/action-1">Aveo</Dropdown.Item>
                                 <Dropdown.Item href="#/action-2">Beat</Dropdown.Item>
                                 <Dropdown.Item href="#/action-3">Captiva</Dropdown.Item>
@@ -75,7 +78,7 @@ export default class Firstpage extends Component {
                             <Dropdown.Toggle variant="light" style={{ marginTop: "-7rem" }} >
                                 REGISTRATION YEAR
                             </Dropdown.Toggle>
-                            <Dropdown.Menu>
+                            <Dropdown.Menu style={{height:"20rem", maxHeight:"25rem", overflow:"scroll"}}>
                                 <Dropdown.Item href="#/action-1">2019</Dropdown.Item>
                                 <Dropdown.Item href="#/action-2">2018</Dropdown.Item>
                                 <Dropdown.Item href="#/action-3">2017</Dropdown.Item>
